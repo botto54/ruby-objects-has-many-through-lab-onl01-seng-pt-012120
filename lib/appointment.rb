@@ -15,17 +15,17 @@ class Appointment
     @@all
   end
   
-  def new
+  # def new
     
-  end
+  # end
   
-  def patient
+  # def patient
     
-  end
+  # end
   
-  def doctor
+  # def doctor
     
-  end
+  # end
     
   
 end
