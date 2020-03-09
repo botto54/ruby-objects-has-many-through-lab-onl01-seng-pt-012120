@@ -18,13 +18,13 @@ class Artist
   
   def songs
     # iterates through all songs and finds the songs that belong to that artist. Try using select to achieve this.
-    Song.all.select {|song| song.artist == self}  
+    Song.all.select { |song| song.artist == self }  
   end
   
   def genres
     #iterates over that artist's songs and collects the genre of each song.
     # Genre.all.find {|genre| genre.artist == self}
-    self.songs.map {|song| song.genre}
+    self.songs.map { |song| song.genre }
   end
   
 end
