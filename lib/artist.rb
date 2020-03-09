@@ -24,6 +24,7 @@ class Artist
   def genres
     #iterates over that artist's songs and collects the genre of each song.
     # Genre.all.find {|genre| genre.artist == self}
+    self.songs.map {|song| song.genre}
   end
   
 end
