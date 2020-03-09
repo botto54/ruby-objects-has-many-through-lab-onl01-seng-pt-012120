@@ -21,9 +21,7 @@ class Doctor
   end
   
   def patients
-    a.map do |appt|
-      appt.patient
-    end
+
   end
   
   
