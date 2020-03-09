@@ -8,7 +8,6 @@ class Appointment
     @patient = patient
     @time = time
     @@all << self
-    
   end
   
   def self.all
