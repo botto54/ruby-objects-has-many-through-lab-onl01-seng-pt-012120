@@ -15,17 +15,4 @@ class Appointment
     @@all
   end
   
-  # def new
-    
-  # end
-  
-  # def patient
-    
-  # end
-  
-  # def doctor
-    
-  # end
-    
-  
 end
